@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "id": "task_escada_001",
+      "title": "Configurar n8n-mcp + MCP server en OpenClaw",
+      "description": "Completar la configuración del MCP server n8n-mcp para que el agente pueda gestionar workflows de n8n directamente desde OpenClaw.",
+      "status": "in_progress",
+      "subtasks": [
+        {"id": "sub_001", "title": "Verificar que n8n esté corriendo", "done": true},
+        {"id": "sub_002", "title": "Verificar API key y conexión MCP", "done": true},
+        {"id": "sub_003", "title": "Probar herramientas MCP (search_nodes, validate, etc.)", "done": false}
+      ],
+      "priority": "high",
+      "dod": "Poder ejecutar comandos de n8n (crear, listar, validar workflows) desde el agente",
+      "epic": "ESCADA 1509",
+      "tags": ["n8n", "mcp", "infraestructura"],
+      "comments": []
+    },
+    {
+      "id": "task_escada_002",
+      "title": "Implementar AI en proyectos Atvise",
+      "description": "Integrar capacidades de AI/ML en los proyectos SCADA Atvise para detección de anomalías, predicción de fallos, y análisis de datos históricos.",
+      "status": "backlog",
+      "subtasks": [
+        {"id": "sub_004", "title": "Definir fuentes de datos (tags, históricos, alarmas)", "done": false},
+        {"id": "sub_005", "title": "Seleccionar modelo/s de AI", "done": false},
+        {"id": "sub_006", "title": "Implementar pipeline de datos", "done": false}
+      ],
+      "priority": "high",
+      "dod": "Dashboard de análisis predictivo funcionando en Atvise",
+      "epic": "ESCADA 1509",
+      "tags": ["atvise", "ai", "scada"],
+      "comments": []
+    },
+    {
+      "id": "task_escada_003",
+      "title": "Ubicar nuevos clientes para ESCADA",
+      "description": "Prospección de clientes potenciales para servicios de automatización industrial. Investigar industria, contacto, y necesidades.",
+      "status": "backlog",
+      "subtasks": [],
+      "priority": "medium",
+      "dod": "Lista de 10+ prospectos calificados con contacto",
+      "epic": "ESCADA 1509",
+      "tags": ["ventas", "prospeccion"],
+      "comments": []
+    },
+    {
+      "id": "task_escuela_001",
+      "title": "Seguimiento de eventos escolares",
+      "description": "Coordinar y dar seguimiento a los eventos y actividades de la Escuela Valores Divinos.",
+      "status": "backlog",
+      "subtasks": [
+        {"id": "sub_007", "title": "Calendario de eventos próximo mes", "done": false},
+        {"id": "sub_008", "title": "Reportes vía Google Sheets", "done": false}
+      ],
+      "priority": "medium",
+      "dod": "Calendario actualizado + reporte semanal automático",
+      "epic": "Escuela Valores Divinos",
+      "tags": ["eventos", "coordinacion"],
+      "comments": []
+    },
+    {
+      "id": "task_cond_001",
+      "title": "Seguimiento de labores de condominio",
+      "description": "Dar seguimiento a las labores del condominio, recordatorios al equipo, y verificar cumplimiento.",
+      "status": "backlog",
+      "subtasks": [
+        {"id": "sub_009", "title": "Lista de labores pendientes", "done": false},
+        {"id": "sub_010", "title": "Configurar recordatorios automáticos", "done": false}
+      ],
+      "priority": "medium",
+      "dod": "Sistema de seguimiento funcionando con recordatorios vía Telegram",
+      "epic": "Junta de Condominio",
+      "tags": ["condominio", "recordatorios"],
+      "comments": []
+    }
+  ]
+}
